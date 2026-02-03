@@ -1,16 +1,69 @@
-# React + Vite
+# Formik & Yup Auth Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple authentication flow built with **React**, focusing on **form validation**, **protected routes**, and **clean component structure**.
 
-Currently, two official plugins are available:
+It demonstrates how to manage form state and validation using **Formik** and **Yup**, along with basic route protection logic.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User registration and login forms
+- Form validation with **Formik** & **Yup**
+- Client-side authentication logic
+- Protected routes (only accessible after login)
+- Reusable and clean React components
+- Modern frontend project structure
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React**
+- **Vite**
+- **Formik**
+- **Yup**
+- **React Router DOM**
+- **CSS**
+
+---
+
+## 📂 Project Structure
+
+src/
+├── App.jsx
+├── main.jsx
+├── App.css
+├── login.css
+├── AuthContext.jsx
+├── ProtectedRoute.jsx
+├── Home.jsx
+├── Login.jsx
+├── Register.jsx
+
+## 🔐 Authentication Logic
+
+- Authentication state is managed via **React Context**
+- Routes are protected using a custom `ProtectedRoute` component
+- Unauthorized users are redirected to the login page
+
+---
+
+## ✅ Form Validation
+
+- Form state is handled by **Formik**
+- Validation rules are defined with **Yup**
+- Error messages are shown dynamically based on user input
+
+---
+
+## ⚙️ Installation & Run
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/USERNAME/formik-yup.git
+cd formik-yup
+npm install
+npm run dev
+```
