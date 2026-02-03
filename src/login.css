@@ -1,0 +1,49 @@
+.loginApp {
+  width: 360px;
+  margin: 100px auto;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.loginApp h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.loginEmail,
+.loginPasword {
+  margin-bottom: 16px;
+}
+
+.loginEmail input,
+.loginPasword input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.loginEmail input:focus,
+.loginPasword input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  background-color: #4338ca;
+}
