@@ -1,8 +1,9 @@
-# Formik & Yup Auth Form
+# Formik & Yup Authentication App
 
-This project is a simple authentication flow built with **React**, focusing on **form validation**, **protected routes**, and **clean component structure**.
+This project is a **client-side authentication application** built with **React**.  
+It demonstrates a complete authentication flow including **form validation**, **token-based login logic**, and **protected routes**.
 
-It demonstrates how to manage form state and validation using **Formik** and **Yup**, along with basic route protection logic.
+The project focuses on using **Formik** and **Yup** for robust form handling, while implementing a simple **token-based authentication mechanism** on the frontend.
 
 ---
 
@@ -10,10 +11,11 @@ It demonstrates how to manage form state and validation using **Formik** and **Y
 
 - User registration and login forms
 - Form validation with **Formik** & **Yup**
-- Client-side authentication logic
-- Protected routes (only accessible after login)
-- Reusable and clean React components
-- Modern frontend project structure
+- Token-based authentication logic (client-side)
+- Protected routes (accessible only when authenticated)
+- Authentication state management with **React Context**
+- Clean and reusable component structure
+- Modern frontend project setup with Vite
 
 ---
 
@@ -24,12 +26,14 @@ It demonstrates how to manage form state and validation using **Formik** and **Y
 - **Formik**
 - **Yup**
 - **React Router DOM**
+- **Context API**
 - **CSS**
 
 ---
 
 ## 📂 Project Structure
 
+````text
 src/
 ├── App.jsx
 ├── main.jsx
@@ -66,4 +70,4 @@ git clone https://github.com/USERNAME/formik-yup.git
 cd formik-yup
 npm install
 npm run dev
-```
+````
