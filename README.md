@@ -71,3 +71,7 @@ cd formik-yup
 npm install
 npm run dev
 ````
+
+### 🧪 Note
+
+This project demonstrates a frontend-only authentication flow for learning purposes.
