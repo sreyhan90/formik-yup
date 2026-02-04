@@ -75,3 +75,7 @@ npm run dev
 ### 🧪 Note
 
 This project demonstrates a frontend-only authentication flow for learning purposes.
+
+## 🧪 Note
+
+This is a frontend-only auth flow for learning purposes.
